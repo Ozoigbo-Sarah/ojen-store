@@ -1,0 +1,135 @@
+const clothingSizes = ['S', 'M', 'L', 'XL', 'XXL']
+
+export const products = [
+  {
+    id: 'p1',
+    slug: 'royal-agbada-set',
+    name: 'Royal Agbada Set',
+    collection: 'heritage',
+    price: 185000,
+    description:
+      'A flowing three-piece agbada set cut from premium woven fabric, finished with refined embroidery at the neckline. Made for weddings, ceremonies and statement occasions.',
+    sizes: clothingSizes,
+    colours: [
+      { name: 'Obsidian', hex: '#171916' },
+      { name: 'Ivory', hex: '#eae5da' },
+    ],
+    images: ['/images/products/heritage-agbada-1.jpg'],
+    isNew: true,
+    isBestSeller: false,
+  },
+  {
+    id: 'p2',
+    slug: 'senator-two-piece-set',
+    name: 'Senator Two-Piece Set',
+    collection: 'heritage',
+    price: 95000,
+    description:
+      'A sharp senator tunic and tailored trousers in a soft, structured fabric. A modern classic for the office, church and every celebration in between.',
+    sizes: clothingSizes,
+    colours: [
+      { name: 'Obsidian', hex: '#171916' },
+      { name: 'Forest Olive', hex: '#465247' },
+    ],
+    images: ['/images/products/heritage-senator-1.jpg'],
+    isNew: false,
+    isBestSeller: true,
+  },
+  {
+    id: 'p3',
+    slug: 'indigo-adire-shirt',
+    name: 'Indigo Adire Shirt',
+    collection: 'adire',
+    price: 48000,
+    description:
+      'A relaxed short-sleeved shirt in hand-inspired indigo Adire patterns. Lightweight, breathable and made to stand out without trying too hard.',
+    sizes: clothingSizes,
+    colours: [{ name: 'Indigo', hex: '#2b3a67' }],
+    images: ['/images/products/adire-shirt-1.jpg'],
+    isNew: true,
+    isBestSeller: false,
+  },
+  {
+    id: 'p4',
+    slug: 'premium-cotton-polo',
+    name: 'Premium Cotton Polo',
+    collection: 'everyday',
+    price: 28000,
+    description:
+      'A clean, well-fitted polo in dense combed cotton. Soft on the skin, sharp on the frame, and easy to wear from morning to evening.',
+    sizes: clothingSizes,
+    colours: [
+      { name: 'Ivory', hex: '#eae5da' },
+      { name: 'Obsidian', hex: '#171916' },
+      { name: 'Forest Olive', hex: '#465247' },
+    ],
+    images: ['/images/products/everyday-polo-1.jpg'],
+    isNew: false,
+    isBestSeller: true,
+  },
+  {
+    id: 'p5',
+    slug: 'oversized-heavyweight-hoodie',
+    name: 'Oversized Heavyweight Hoodie',
+    collection: 'street',
+    price: 55000,
+    description:
+      'A heavyweight brushed-fleece hoodie with a boxy, oversized fit and a deep hood. Built for cool evenings and confident streetwear looks.',
+    sizes: clothingSizes,
+    colours: [
+      { name: 'Obsidian', hex: '#171916' },
+      { name: 'Forest Olive', hex: '#465247' },
+    ],
+    images: ['/images/products/street-hoodie-1.jpg'],
+    isNew: false,
+    isBestSeller: true,
+  },
+  {
+    id: 'p6',
+    slug: 'performance-training-set',
+    name: 'Performance Training Set',
+    collection: 'motion',
+    price: 42000,
+    description:
+      'A moisture-wicking training top and matching bottoms with four-way stretch. Designed to move with you through every rep, run and round.',
+    sizes: clothingSizes,
+    colours: [
+      { name: 'Obsidian', hex: '#171916' },
+      { name: 'Forest Olive', hex: '#465247' },
+    ],
+    images: ['/images/products/motion-set-1.jpg'],
+    isNew: true,
+    isBestSeller: false,
+  },
+  {
+    id: 'p7',
+    slug: 'tailored-blazer',
+    name: 'Tailored Blazer',
+    collection: 'signature',
+    price: 120000,
+    description:
+      'A refined single-breasted blazer with a clean shoulder and a slim, tailored cut. Elevates a shirt and trousers into a complete, polished look.',
+    sizes: clothingSizes,
+    colours: [
+      { name: 'Obsidian', hex: '#171916' },
+      { name: 'Forest Olive', hex: '#465247' },
+    ],
+    images: ['/images/products/signature-blazer-1.jpg'],
+    isNew: false,
+    isBestSeller: true,
+  },
+  {
+    id: 'p8',
+    slug: 'structured-leather-bag',
+    name: 'Structured Leather Bag',
+    collection: 'accessories',
+    price: 75000,
+    description:
+      'A structured bag in supple, premium leather with champagne-toned hardware. Compact enough for daily carry, refined enough for any occasion.',
+    sizes: ['One Size'],
+    colours: [{ name: 'Obsidian', hex: '#171916' }],
+    images: ['/images/products/accessories-bag-1.jpg'],
+    isNew: true,
+    isBestSeller: false,
+  },
+]
